@@ -9,11 +9,11 @@
 ### 1. 인코더(Encoder)와 디코더(Decoder)
 * **인코더 (Encoder)**: 입력 문장을 처리하여 고차원 벡터로 변환
     * **인코더의 구조** 
-    1. **입력 임베딩 (Input Embedding)**: 단어를 벡터로 변환
-    2. **위치 인코딩 (Positional Encoding)**: 단어 순서를 반영
-    3. **멀티-헤드 자기 주의 (Multi-Head Self-Attention)**: 단어 간 관계 파악
-    4. **피드포워드 신경망 (Feed-Forward Neural Network)**: 단어 표현 변환
-    5. **출력 (Output)**: 변환된 벡터 출력 
+    * 1. **입력 임베딩 (Input Embedding)**: 단어를 벡터로 변환
+    * 2. **위치 인코딩 (Positional Encoding)**: 단어 순서를 반영
+    * 3. **멀티-헤드 자기 주의 (Multi-Head Self-Attention)**: 단어 간 관계 파악
+    * 4. **피드포워드 신경망 (Feed-Forward Neural Network)**: 단어 표현 변환
+    * 5. **출력 (Output)**: 변환된 벡터 출력 
 
 * **디코더 (Decoder)**: 인코더에서 전달받은 정보로부터 타겟 문장을 생성
     * 인코더-디코더 주의 (Encoder-Decoder Attention) 메커니즘이 존재
